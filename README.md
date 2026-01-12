@@ -14,4 +14,4 @@ poetry run jupyter notebook
 poetry run python -m ipykernel install --user --name={kernel-name}
 ```
 4. Alternatively, you can use snippets of the code in your own work
-- Caveat: when using a pipeline, especially one that one-hot encodes features, you’ll need to take extra steps to ensure this works. 
+- Caveat: when using a pipeline, especially one that one-hot encodes features, you’ll need to take extra steps to ensure the code to get SHAP values and feature names works. 
