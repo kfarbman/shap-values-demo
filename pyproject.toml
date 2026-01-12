@@ -34,6 +34,8 @@ catboost = ">=1.2.8,<1.3"
 shap = ">=0.47.2,<0.48"
 pandasql = ">=0.7.3,<0.8"
 urllib3 = "1.26.20"
+ipywidgets = "^8.1.8"
+jupyterlab = "^4.5.2"
 
 [build-system]
 requires = ["poetry-core"]
